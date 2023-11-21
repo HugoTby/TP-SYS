@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TPSystemeClochesClass</class>
+ <widget class="QMainWindow" name="TPSystemeClochesClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>692</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TPSystemeCloches</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="cloche1">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>40</y>
+      <width>193</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliquez-ici</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cloche2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>100</y>
+      <width>193</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliquez-ici</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cloche3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>160</y>
+      <width>193</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliquez-ici</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cloche4">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>193</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliquez-ici</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="musique">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>100</y>
+      <width>193</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cliquez-ici</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>60</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLOCHE N°1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>115</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLOCHE N°2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>170</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLOCHE N°3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>230</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLOCHE N°4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MUSIQUE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>692</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="TPSystemeCloches.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>cloche1</sender>
+   <signal>clicked()</signal>
+   <receiver>TPSystemeClochesClass</receiver>
+   <slot>onClickButtonBell1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>486</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cloche2</sender>
+   <signal>clicked()</signal>
+   <receiver>TPSystemeClochesClass</receiver>
+   <slot>onClickButtonBell2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>486</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cloche3</sender>
+   <signal>clicked()</signal>
+   <receiver>TPSystemeClochesClass</receiver>
+   <slot>onClickButtonBell3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>486</x>
+     <y>223</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cloche4</sender>
+   <signal>clicked()</signal>
+   <receiver>TPSystemeClochesClass</receiver>
+   <slot>onClickButtonBell4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>486</x>
+     <y>283</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>musique</sender>
+   <signal>clicked()</signal>
+   <receiver>TPSystemeClochesClass</receiver>
+   <slot>onClickButtonMusic()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>176</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onClickButtonBell1()</slot>
+  <slot>onClickButtonBell2()</slot>
+  <slot>onClickButtonBell3()</slot>
+  <slot>onClickButtonBell4()</slot>
+  <slot>onClickButtonMusic()</slot>
+ </slots>
+</ui>
