@@ -7,7 +7,7 @@
 //*                Hugo Tabary
 //*                Edouard Hautemanière
 //*--------------------------------------------------------------------------------------------
-//* But : C'est le point d'entrée principal de l'application
+//* But : C'est l'enroit où est déclarée la classe ClochesADLink
 //* Programmes associés : ui_ClochesADLink.h, QtWidgets/QApplication, QKeyEvent, Windows.h,
 //*                       Dask.h, conio.h, iostream
 //*********************************************************************************************
