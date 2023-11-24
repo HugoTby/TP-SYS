@@ -1,17 +1,16 @@
 //*********************************************************************************************
 //* Programme : ClochesADLink.h                                             Date : 24/11/2023
 //*--------------------------------------------------------------------------------------------
-//* DerniÃ¨re mise Ã  jour : 24/11/2023
+//* Dernière mise à jour : 24/11/2023
 //*
 //* Programmeurs : Alexandre Lepretre                                         Classe : BTSSN2
 //*                Hugo Tabary
-//*                Edouard HautemaniÃ¨re
+//*                Edouard Hautemanière
 //*--------------------------------------------------------------------------------------------
-//* But : C'est l'enroit oÃ¹ est dÃ©clarÃ©e la classe ClochesADLink
-//* Programmes associÃ©s : ui_ClochesADLink.h, QtWidgets/QApplication, QKeyEvent, Windows.h,
+//* But : C'est l'enroit où est déclarée la classe ClochesADLink
+//* Programmes associés : ui_ClochesADLink.h, QtWidgets/QApplication, QKeyEvent, Windows.h,
 //*                       Dask.h, conio.h, iostream
 //*********************************************************************************************
-
 #pragma once
 
 #include <QtWidgets/QMainWindow>

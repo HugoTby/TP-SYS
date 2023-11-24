@@ -198,6 +198,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>Music</sender>
+   <signal>clicked()</signal>
+   <receiver>ClochesADLinkClass</receiver>
+   <slot>LauncherBellAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>135</x>
+     <y>145</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>294</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>LauncherBellNum1()</slot>
@@ -205,5 +221,6 @@
   <slot>LauncherBellNum3()</slot>
   <slot>LauncherBellNum4()</slot>
   <slot>Label1()</slot>
+  <slot>LauncherBellAll()</slot>
  </slots>
 </ui>

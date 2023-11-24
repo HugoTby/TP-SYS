@@ -1,14 +1,14 @@
 //*********************************************************************************************
 //* Programme : ClochesADLink.cpp                                           Date : 24/11/2023
 //*--------------------------------------------------------------------------------------------
-//* DerniÃ¨re mise Ã  jour : 24/11/2023
+//* Dernière mise à jour : 24/11/2023
 //*
 //* Programmeurs : Alexandre Lepretre                                         Classe : BTSSN2
 //*                Hugo Tabary
-//*                Edouard HautemaniÃ¨re
+//*                Edouard Hautemanière
 //*--------------------------------------------------------------------------------------------
-//* But : C'est l'endroit oÃ¹ sont stockÃ©es les mÃ©thodes de la classe ClochesADLink
-//* Programmes associÃ©s : ClochesADLink.h
+//* But : C'est l'endroit où sont stockées les méthodes de la classe ClochesADLink
+//* Programmes associés : ClochesADLink.h
 //*********************************************************************************************
 #include "ClochesADLink.h"
 
@@ -56,10 +56,36 @@ void ClochesADLink::keyPressEvent(QKeyEvent* ev)
     }
     if (ev->key() == Qt::Key_P)
     {
-        LauncherBellNum1();
-        LauncherBellNum2();
-        LauncherBellNum3();
-        LauncherBellNum4();
+        /*
+    LauncherBellNum1();
+    LauncherBellNum2();
+    LauncherBellNum3();
+    LauncherBellNum4();
+    */
+
+
+        DO_WriteLine(cardId, PCI_7256, 0, 1);
+        Sleep(100);
+        DO_WriteLine(cardId, PCI_7256, 1, 1);
+        Sleep(100);
+        DO_WriteLine(cardId, PCI_7256, 2, 1);
+        Sleep(100);
+        DO_WriteLine(cardId, PCI_7256, 3, 1);
+        Sleep(500);
+        DO_WriteLine(cardId, PCI_7256, 0, 0);
+        Sleep(100);
+        DO_WriteLine(cardId, PCI_7256, 1, 0);
+        Sleep(100);
+        DO_WriteLine(cardId, PCI_7256, 2, 0);
+        Sleep(100);
+        DO_WriteLine(cardId, PCI_7256, 3, 0);
+        Sleep(500);
+    }
+    if (ev->key() == Qt::Key_T)
+    {
+        DO_WritePort(cardId, PCI_7256, 15);
+        Sleep(300);
+        DO_WritePort(cardId, PCI_7256, 0);
     }
     else
     {
@@ -97,13 +123,25 @@ void ClochesADLink::LauncherBellNum4()
     Sleep(500);
 
 }
-
 void ClochesADLink::LauncherBellAll()
 {
-    LauncherBellNum1();
-    LauncherBellNum2();
-    LauncherBellNum3();
-    LauncherBellNum4();
+    DO_WriteLine(cardId, PCI_7256, 0, 1);
+    Sleep(100);
+    DO_WriteLine(cardId, PCI_7256, 1, 1);
+    Sleep(100);
+    DO_WriteLine(cardId, PCI_7256, 2, 1);
+    Sleep(100);
+    DO_WriteLine(cardId, PCI_7256, 3, 1);
+    Sleep(500);
+    DO_WriteLine(cardId, PCI_7256, 0, 0);
+    Sleep(100);
+    DO_WriteLine(cardId, PCI_7256, 1, 0);
+    Sleep(100);
+    DO_WriteLine(cardId, PCI_7256, 2, 0);
+    Sleep(100);
+    DO_WriteLine(cardId, PCI_7256, 3, 0);
+    Sleep(500);
+    
 }
 
 void ClochesADLink::Label1()

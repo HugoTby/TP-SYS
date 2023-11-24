@@ -1,9 +1,2 @@
-﻿  uic ClochesADLink.ui
-  rcc ClochesADLink.qrc
-  moc ClochesADLink.h
-   RCC: Warning: No resources in 'C:\Users\Formation\source\repos\ClochesADLink\ClochesADLink\ClochesADLink.qrc'.
-  ClochesADLink.cpp
-  main.cpp
-  qrc_ClochesADLink.cpp
-  moc_ClochesADLink.cpp
+﻿  ClochesADLink.cpp
   ClochesADLink.vcxproj -> C:\Users\Formation\source\repos\ClochesADLink\x64\Debug\ClochesADLink.exe

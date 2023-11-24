@@ -78,6 +78,7 @@ public:
         QObject::connect(Cloche3, SIGNAL(clicked()), ClochesADLinkClass, SLOT(LauncherBellNum3()));
         QObject::connect(Cloche4, SIGNAL(clicked()), ClochesADLinkClass, SLOT(LauncherBellNum4()));
         QObject::connect(Cloche1, SIGNAL(clicked()), ClochesADLinkClass, SLOT(Label1()));
+        QObject::connect(Music, SIGNAL(clicked()), ClochesADLinkClass, SLOT(LauncherBellAll()));
 
         QMetaObject::connectSlotsByName(ClochesADLinkClass);
     } // setupUi

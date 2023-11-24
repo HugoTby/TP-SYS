@@ -1,14 +1,14 @@
 //*********************************************************************************************
 //* Programme : main.cpp                                                    Date : 24/11/2023
 //*--------------------------------------------------------------------------------------------
-//* DerniÃ¨re mise Ã  jour : 24/11/2023
+//* Dernière mise à jour : 24/11/2023
 //*
 //* Programmeurs : Alexandre Lepretre                                         Classe : BTSSN2
 //*                Hugo Tabary
-//*                Edouard HautemaniÃ¨re
+//*                Edouard Hautemanière
 //*--------------------------------------------------------------------------------------------
-//* But : C'est le point d'entrÃ©e principal de l'application
-//* Programmes associÃ©s : ClochesADLink.h, QtWidgets/QApplication
+//* But : C'est le point d'entrée principal de l'application
+//* Programmes associés : ClochesADLink.h, QtWidgets/QApplication
 //*********************************************************************************************
 
 #include "ClochesADLink.h"
