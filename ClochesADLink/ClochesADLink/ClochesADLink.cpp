@@ -1,3 +1,15 @@
+//*********************************************************************************************
+//* Programme : ClochesADLink.cpp                                           Date : 24/11/2023
+//*--------------------------------------------------------------------------------------------
+//* Dernière mise à jour : 24/11/2023
+//*
+//* Programmeurs : Alexandre Lepretre                                         Classe : BTSSN2
+//*                Hugo Tabary
+//*                Edouard Hautemanière
+//*--------------------------------------------------------------------------------------------
+//* But : C'est l'endroit où sont stockées les méthodes de la classe ClochesADLink
+//* Programmes associés : ClochesADLink.h
+//*********************************************************************************************
 #include "ClochesADLink.h"
 
 ClochesADLink::ClochesADLink(QWidget *parent)
